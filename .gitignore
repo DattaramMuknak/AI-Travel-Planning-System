@@ -1,0 +1,22 @@
+@"
+# Virtual environment
+langraph_venv/
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# Build files
+build/
+dist/
+*.egg-info/
+"@ | Set-Content .gitignore
